@@ -1,0 +1,16 @@
+{
+	"name": "WideWorldImporters",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WideWorldImporters Server",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "Website",
+			"table": "Customers"
+		}
+	}
+}
