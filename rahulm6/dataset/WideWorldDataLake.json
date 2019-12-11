@@ -1,0 +1,21 @@
+{
+	"name": "WideWorldDataLake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "WideWorldAzureDataLakeStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "wideworld"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
