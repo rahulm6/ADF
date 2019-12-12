@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "Sales",
-			"table": "Customers"
+			"table": "Orders"
 		}
 	}
 }
